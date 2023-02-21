@@ -1,0 +1,53 @@
+body{
+    margin: 50px;
+    padding: 0;
+    animation: bgcolor infinite 1s;
+}
+
+.my-image{
+    position: relative;;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+.my-image:hover{
+    transform: rotate(10000deg) scale(3);
+}
+
+@keyframes bgcolor {
+    0%{
+        background-color: orange;
+    }
+    10%{
+        background-color: blue;
+    }
+    20%{
+        background-color: yellow;
+    }
+    30%{
+        background-color: red;
+    }
+    40%{
+        background-color: violet;
+    }
+    50%{
+        background-color: royalblue;
+    }
+    60%{
+        background-color: pink;
+    }
+    70%{
+        background-color: greenyellow;
+    }
+    80%{
+        background-color: tomato;
+    }
+    90%{
+        background-color: teal;
+    }
+    100%{
+        background-color: rgb(118, 213, 213);
+    }
+}
